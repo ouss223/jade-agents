@@ -68,7 +68,7 @@ public class MonitoringAgent extends Agent {
         systemProcesses.add("grep");
         systemProcesses.add("sed");
 
-        String nameArg = "agent1";
+        String nameArg = "agent1"; // agentx , x is the id of the agent
         Object[] args = getArguments();
         if (args != null && args.length > 0)
             nameArg = (String) args[0];
