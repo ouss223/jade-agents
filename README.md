@@ -1,4 +1,4 @@
-# JADE Distributed Agent-Based Network Monitoring System
+# JADE Distributed Agent-Based Network Monitoring And Response System
 
 A multi-agent system built on **JADE** (Java Agent Development Environment) for distributed resource monitoring, anomaly detection, and autonomous system remediation across networked hosts.
 
