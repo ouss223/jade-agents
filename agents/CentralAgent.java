@@ -25,10 +25,14 @@ public class CentralAgent extends Agent {
 
         try {
             Class.forName("org.postgresql.Driver");
+            System.out.println("[DB] PostgreSQL driver loaded");
+            
             conn = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/network_monitor",
                     "agent_user",
                     "0000");
+            
+            System.out.println("[DB] Connected to database successfully");
 
             String createMetrics = "CREATE TABLE IF NOT EXISTS metrics ("
                     + "id SERIAL PRIMARY KEY, "
@@ -71,6 +75,9 @@ public class CentralAgent extends Agent {
             conn.createStatement().execute(createAudit);
 
         } catch (Exception e) {
+            System.out.println("[FATAL] Database connection failed!");
+            System.out.println("[FATAL] Error: " + e.getMessage());
+            System.out.println("[FATAL] Exception type: " + e.getClass().getSimpleName());
             e.printStackTrace();
         }
 
