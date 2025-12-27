@@ -6,7 +6,7 @@ Automated scripts for compilation, and deployment of JADE agents.
 
 ## Scripts
 
-- **compile_agents.sh** - Compile Java agents (monitoring|central|all)
+- **compile_agents.sh** - Compile Java agents (monitoring|central)
 - **run_central.sh** - Launch CentralAgent (central_ip)
 - **run_monitoring.sh** - Launch MonitoringAgent (agent_id, central_ip)
 - **start_grafana_tunnel.sh** - Start Cloudflare tunnel (grafana_url)
