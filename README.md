@@ -72,12 +72,12 @@ chmod +x ./scripts/start_grafana_tunnel.sh
 
 ## Documentation
 
-- [Infrastructure Setup](demonstrations/02_setup/infrastructure_setup.md) - GNS3 configuration
-- [Network Architecture](demonstrations/03_network/network_architecture.md) - Topology details
-- [Agent Deployment](demonstrations/04_agents/agents_deployment.md) - Launching agents
-- [Database & Grafana](demonstrations/05_db_grafana/database_grafana.md) - Persistence & visualization
-- [Test Results](demonstrations/06_tests/testing_results.md) - Validation results
-- [Problems & Solutions](demonstrations/01_problems/problems_and_solutions.md) - Issues encountered
+- [Infrastructure Setup](demonstrations/02_setup/README.md) - GNS3 configuration
+- [Network Architecture](demonstrations/03_network/README.md) - Topology details
+- [Agent Deployment](demonstrations/04_agents/README.md) - Launching agents
+- [Database & Grafana](demonstrations/05_db_grafana/README.md) - Persistence & visualization
+- [Test Results](demonstrations/06_tests/README.md) - Validation results
+- [Problems & Solutions](demonstrations/01_problems/README.md) - Issues encountered
 - [Network Configuration](configs/agents-network/README.md) - IP setup
 - [Router Configuration](configs/router/README.md) - Cisco IOSv setup
 - [Grafana Configuration](grafana/README.md) - Dashboards
